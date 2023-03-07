@@ -16,7 +16,9 @@ class Karyawan extends Model
         'nama_karyawan',
         'alamat',
         'gender',
+        'status',
         'no_telp',
+        'password',
     ];
 
 

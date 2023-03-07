@@ -9,7 +9,7 @@ class Wilayah extends Model
 {
     use HasFactory;
 
-    protected $table = '';
+    protected $table = 'wilayah';
 
     protected $fillable = [
         'kode_wilayah',

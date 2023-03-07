@@ -18,7 +18,9 @@ return new class extends Migration
             $table->string('nama_karyawan');
             $table->string('alamat');
             $table->enum('gender', ['L', 'P']);
+            $table->enum('status', ['Karyawan', 'Pemilik']);
             $table->string('no_telp', 15);
+            $table->string('password');
 
             $table->timestamps();
         });
